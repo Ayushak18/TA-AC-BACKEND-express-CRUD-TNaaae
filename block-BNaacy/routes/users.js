@@ -2,6 +2,10 @@ let express = require('express');
 let router = express.Router();
 let User = require('../models/user');
 
+router.get('/', (req, res) => {
+  res.send('Use /user/new to open form');
+});
+
 router.get('/new', (req, res) => {
   res.render('newUser');
 });

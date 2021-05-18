@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/newUser.css" />
+    <title>User</title>
+  </head>
+  <body>
+    <h1>Form To Add User</h1>
+    <form action="/users" method="POST" class="flex">
+      <input type="text" placeholder="Name" name="name" />
+      <input type="email" placeholder="Email" name="email" />
+      <input type="text" placeholder="Address" name="address" />
+      <textarea name="bio" cols="30" rows="10" placeholder="Bio"></textarea>
+      <input type="text" placeholder="Hobbies" name="hobbies" />
+      <input type="submit" value="Add User" />
+    </form>
+  </body>
+</html>
